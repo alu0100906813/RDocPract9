@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Plato - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link"><a href="Object.html">Object</a>
+  
+</div>
+
+    <div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><span class="include">Comparable</span>
+  
+  
+  </ul>
+</div>
+
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-i-3C-3D-3E">#&lt;=&gt;</a>
+    
+    <li ><a href="#method-i-get_alimentos">#get_alimentos</a>
+    
+    <li ><a href="#method-i-get_cantidad">#get_cantidad</a>
+    
+    <li ><a href="#method-i-get_carbohidratos">#get_carbohidratos</a>
+    
+    <li ><a href="#method-i-get_huella">#get_huella</a>
+    
+    <li ><a href="#method-i-get_huella_carbono">#get_huella_carbono</a>
+    
+    <li ><a href="#method-i-get_lipidos">#get_lipidos</a>
+    
+    <li ><a href="#method-i-get_nombre">#get_nombre</a>
+    
+    <li ><a href="#method-i-get_proteinas">#get_proteinas</a>
+    
+    <li ><a href="#method-i-get_vct">#get_vct</a>
+    
+    <li ><a href="#method-i-push">#push</a>
+    
+    <li ><a href="#method-i-to_s">#to_s</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Plato">
+  <h1 id="class-Plato" class="class">
+    class Plato
+  </h1>
+
+  <section class="description">
+    
+<h1 id="class-Plato-label-Clase+Plato">Clase <a href="Plato.html"><code>Plato</code></a><span><a href="#class-Plato-label-Clase+Plato">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Contiene un conjunto de alimentos, junto con su cantidad en gramos. Además le podemos añadir un nombre.</p>
+
+  </section>
+
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      
+      <div id="attribute-i-alimentos" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">alimentos</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p><a href="Lista.html"><code>Lista</code></a> que contiene todos los alimentos del plato</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-cantidad" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">cantidad</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p><a href="Array.html"><code>Array</code></a> que contiene la cantidad de cada alimento en gramos</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-carboh_totales" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">carboh_totales</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>Contiene los carbohidratos totales de todos los platos</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-gramos" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">gramos</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>Contienen los gramos totales de todos los platos</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-lipid_totales" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">lipid_totales</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>Contiene los lípidos totales de todos los platos</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-nombre" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">nombre</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>Nombre que le queremos asignar al plato</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-prot_totales" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">prot_totales</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>Contiene las proteinas totales de todos los platos</p>
+        
+        </div>
+      </div>
+      
+    </section>
+    
+
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(nombre)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Inicializamos el plato, le ponemos un nombre.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 24</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">nombre</span>)
+    <span class="ruby-ivar">@nombre</span> = <span class="ruby-identifier">nombre</span>
+    <span class="ruby-ivar">@alimentos</span> = <span class="ruby-constant">Lista</span>.<span class="ruby-identifier">new</span>
+    <span class="ruby-ivar">@cantidad</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+    <span class="ruby-ivar">@prot_totales</span> = <span class="ruby-ivar">@carboh_totales</span> = <span class="ruby-ivar">@lipid_totales</span> = <span class="ruby-ivar">@gramos</span> = <span class="ruby-value">0.0</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-3C-3D-3E" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">&lt;=&gt;</span><span
+            class="method-args">(another)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Nos permite comparar diferente platos, según su huella nutricional</p>
+          
+          
+
+          
+          <div class="method-source-code" id="3C-3D-3E-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 35</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">&lt;=&gt;</span>(<span class="ruby-identifier">another</span>)
+    <span class="ruby-comment">#get_vct() &lt;=&gt; another.get_vct()</span>
+    <span class="ruby-identifier">get_huella</span>() <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">another</span>.<span class="ruby-identifier">get_huella</span>()
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_alimentos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_alimentos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el conjunto de alimentos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_alimentos-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 57</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_alimentos</span>()
+    <span class="ruby-ivar">@alimentos</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_cantidad" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_cantidad</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve la cantidad de gramos de cada alimentos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_cantidad-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 62</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_cantidad</span>()
+    <span class="ruby-ivar">@cantidad</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_carbohidratos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_carbohidratos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el porcentaje de hidratos de carbono del conjunto de alimentos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_carbohidratos-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 77</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_carbohidratos</span>()
+    ((<span class="ruby-ivar">@carboh_totales</span><span class="ruby-operator">/</span>(<span class="ruby-ivar">@gramos</span>.<span class="ruby-identifier">to_f</span>))<span class="ruby-operator">*</span><span class="ruby-value">100.0</span>).<span class="ruby-identifier">truncate</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_huella" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_huella</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>CÓDIGO HECHO PARA LA PRÁCTICA 9 (FUNCIONAL) Nos devuelve la huella</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_huella-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 93</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_huella</span>()
+    <span class="ruby-comment"># Primero empezamos con la energía</span>
+    <span class="ruby-identifier">vct</span> = <span class="ruby-identifier">get_vct</span>()
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">vct</span><span class="ruby-operator">&lt;</span><span class="ruby-value">670.0</span>)
+        <span class="ruby-identifier">a</span>=<span class="ruby-value">1</span>
+    <span class="ruby-keyword">else</span>
+        <span class="ruby-keyword">if</span>(<span class="ruby-identifier">vct</span><span class="ruby-operator">&lt;</span><span class="ruby-value">830.0</span>)
+            <span class="ruby-identifier">a</span>=<span class="ruby-value">2</span>
+        <span class="ruby-keyword">else</span>
+            <span class="ruby-identifier">a</span>=<span class="ruby-value">3</span>
+        <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">hc</span> = <span class="ruby-identifier">get_huella_carbono</span>(<span class="ruby-value">0</span>)
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">hc</span><span class="ruby-operator">&lt;</span><span class="ruby-value">800.0</span>)
+        <span class="ruby-identifier">b</span>=<span class="ruby-value">1</span>
+    <span class="ruby-keyword">else</span>
+        <span class="ruby-keyword">if</span>(<span class="ruby-identifier">vct</span><span class="ruby-operator">&lt;</span><span class="ruby-value">1200.0</span>)
+            <span class="ruby-identifier">b</span>=<span class="ruby-value">2</span>
+        <span class="ruby-keyword">else</span>
+            <span class="ruby-identifier">b</span>=<span class="ruby-value">3</span>
+        <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">c</span> = (<span class="ruby-identifier">a</span><span class="ruby-operator">+</span><span class="ruby-identifier">b</span>)<span class="ruby-operator">/</span><span class="ruby-value">2.0</span>
+    <span class="ruby-identifier">c</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_huella_carbono" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_huella_carbono</span><span
+            class="method-args">(iter)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Nos calcula la huella de carbono total</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_huella_carbono-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 120</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_huella_carbono</span>(<span class="ruby-identifier">iter</span>)
+    <span class="ruby-keyword">return</span> <span class="ruby-value">0.0</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">iter</span> <span class="ruby-operator">==</span> <span class="ruby-ivar">@alimentos</span>.<span class="ruby-identifier">size</span>()
+    <span class="ruby-keyword">return</span> <span class="ruby-ivar">@alimentos</span>.<span class="ruby-identifier">at</span>(<span class="ruby-identifier">iter</span>)[<span class="ruby-string">&quot;value&quot;</span>].<span class="ruby-identifier">get_gei</span>() <span class="ruby-operator">+</span> <span class="ruby-identifier">get_huella_carbono</span>(<span class="ruby-identifier">iter</span><span class="ruby-value">+1</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_lipidos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_lipidos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el porcentaje de lípidos del conjunto de alimentos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_lipidos-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 72</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_lipidos</span>()
+    ((<span class="ruby-ivar">@lipid_totales</span><span class="ruby-operator">/</span>(<span class="ruby-ivar">@gramos</span>.<span class="ruby-identifier">to_f</span>))<span class="ruby-operator">*</span><span class="ruby-value">100.0</span>).<span class="ruby-identifier">truncate</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_nombre" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_nombre</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el nombre del plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_nombre-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_nombre</span>()
+    <span class="ruby-ivar">@nombre</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_proteinas" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_proteinas</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el porcentaje de proteinas del conjunto de alimentos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_proteinas-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 67</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_proteinas</span>()
+    ((<span class="ruby-ivar">@prot_totales</span><span class="ruby-operator">/</span>(<span class="ruby-ivar">@gramos</span>.<span class="ruby-identifier">to_f</span>))<span class="ruby-operator">*</span><span class="ruby-value">100.0</span>).<span class="ruby-identifier">truncate</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-get_vct" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_vct</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el valor calórico total</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_vct-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 82</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">get_vct</span>()
+    (<span class="ruby-ivar">@prot_totales</span><span class="ruby-operator">*</span><span class="ruby-value">4.0</span><span class="ruby-operator">+</span><span class="ruby-ivar">@carboh_totales</span><span class="ruby-operator">*</span><span class="ruby-value">4.0</span><span class="ruby-operator">+</span><span class="ruby-ivar">@lipid_totales</span><span class="ruby-operator">*</span><span class="ruby-value">9.0</span>).<span class="ruby-identifier">truncate</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-push" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">push</span><span
+            class="method-args">(alimento, cantidad)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Añade un alimento al plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="push-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 41</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">push</span>(<span class="ruby-identifier">alimento</span>, <span class="ruby-identifier">cantidad</span>)
+    <span class="ruby-ivar">@alimentos</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">alimento</span>)
+    <span class="ruby-ivar">@cantidad</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">cantidad</span>) <span class="ruby-comment"># En gramos</span>
+    <span class="ruby-identifier">div</span> = <span class="ruby-identifier">cantidad</span><span class="ruby-operator">/</span><span class="ruby-value">100.0</span> <span class="ruby-comment"># Vemos cuantos gramos totales tenemos de cantidad respecto a la porción</span>
+    <span class="ruby-ivar">@gramos</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">cantidad</span>
+    <span class="ruby-ivar">@prot_totales</span> <span class="ruby-operator">+=</span> (<span class="ruby-identifier">alimento</span>.<span class="ruby-identifier">get_proteinas</span>()<span class="ruby-operator">*</span><span class="ruby-identifier">div</span>) <span class="ruby-comment"># Añadimos las proteinas totales</span>
+    <span class="ruby-ivar">@carboh_totales</span> <span class="ruby-operator">+=</span> (<span class="ruby-identifier">alimento</span>.<span class="ruby-identifier">get_carbohidratos</span>()<span class="ruby-operator">*</span><span class="ruby-identifier">div</span>) <span class="ruby-comment"># Añadimos los carbohidratos totales</span>
+    <span class="ruby-ivar">@lipid_totales</span> <span class="ruby-operator">+=</span> (<span class="ruby-identifier">alimento</span>.<span class="ruby-identifier">get_lipidos</span>()<span class="ruby-operator">*</span><span class="ruby-identifier">div</span>) <span class="ruby-comment"># Añadimos los lípidos totales</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-to_s" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">to_s</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve el alimento formateado</p>
+          
+          
+
+          
+          <div class="method-source-code" id="to_s-source">
+            <pre><span class="ruby-comment"># File lib/plato.rb, line 87</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">to_s</span>
+    <span class="ruby-node">&quot;#{nombre}|Gramos=#{gramos}|Proteinas=#{prot_totales}|CarboHidratos=#{carboh_totales}|Lipidos=#{lipid_totales}|Kcal=#{get_vct()}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.1.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
